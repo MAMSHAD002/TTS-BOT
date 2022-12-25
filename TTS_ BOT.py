@@ -8,6 +8,6 @@ def Speak(Audio):
     engine.say(Audio)
     engine.runAndWait()
 
+Name = input("Say for listen: ")
 
-
-Speak('Anything you want to say')    
+Speak(Name)    
